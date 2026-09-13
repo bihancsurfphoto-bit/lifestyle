@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Gallery - BihanC Life Style Photo</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-black text-white font-sans antialiased min-h-screen flex flex-col justify-between select-none" oncontextmenu="return false;">
+
+    <!-- Header / Navbar -->
+    <header class="py-6 px-6 border-b border-zinc-900 flex justify-between items-center max-w-7xl mx-auto w-full">
+        <div>
+            <h1 class="text-xl font-bold tracking-widest uppercase text-cyan-400">BihanC Life Style Photo</h1>
+            <p class="text-xs text-zinc-400 mt-1"><i class="fas fa-map-marker-alt mr-1"></i> Weligama / South Coast Session +94773935839</p>
+        </div>
+        <a href="https://www.bihancsurfphoto.com" target="_blank" class="text-xs bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 px-4 py-2 rounded-lg transition text-zinc-300">
+            Main Website <i class="fas fa-external-link-alt ml-1"></i>
+        </a>
+    </header>
+
+    <!-- Photo Gallery Grid -->
+    <main class="max-w-7xl mx-auto px-4 py-10 w-full flex-grow">
+        <div class="mb-8 text-center">
+            <h2 class="text-2xl font-bold mb-2">Lifestyle & Soul</h2>
+            <p class="text-zinc-400 text-sm">Click any photo to view full screen.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            
+            <!-- Photo Item 1 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/YSWVfYpv/DSC04287.jpg')">
+                <img src="https://i.postimg.cc/YSWVfYpv/DSC04287.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 2 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/tCH3s70m/bihancsurfphoto002.jpg')">
+                <img src="https://i.postimg.cc/tCH3s70m/bihancsurfphoto002.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 3 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/kXK7g8BS/BCR-3004.jpg')">
+                <img src="https://i.postimg.cc/kXK7g8BS/BCR-3004.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+           <!-- Photo Item 4 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/cLWGkRp6/bihancsurfphoto004.jpg')">
+                <img src="https://i.postimg.cc/cLWGkRp6/bihancsurfphoto004.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+           <!-- Photo Item 5 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/vTWhjVnp/bihancsurfphoto005.jpg')">
+                <img src="https://i.postimg.cc/vTWhjVnp/bihancsurfphoto005.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 6 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/hGL6RPYR/bihancsurfphoto033.jpg')">
+                <img src="https://i.postimg.cc/hGL6RPYR/bihancsurfphoto033.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 7 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/3rg0GMvR/bihancsurfphoto038.jpg')">
+                <img src="https://i.postimg.cc/3rg0GMvR/bihancsurfphoto038.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 8 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/jdhmW9j9/bihancsurfphoto008.jpg')">
+                <img src="https://i.postimg.cc/jdhmW9j9/bihancsurfphoto008.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 9 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/DyzdgY6F/bihancsurfphoto009.jpg')">
+                <img src="https://i.postimg.cc/DyzdgY6F/bihancsurfphoto009.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 10 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/hjpQQcHD/bihancsurfphoto010.jpg')">
+                <img src="https://i.postimg.cc/hjpQQcHD/bihancsurfphoto010.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+           <!-- Photo Item 11 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/ZnvYYmmH/bihancsurfphoto011.jpg')">
+                <img src="https://i.postimg.cc/ZnvYYmmH/bihancsurfphoto011.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+           <!-- Photo Item 12 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/G289tGxn/bihancsurfphoto012.jpg')">
+                <img src="https://i.postimg.cc/G289tGxn/bihancsurfphoto012.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 13 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/4x0gdMLm/bihancsurfphoto013.jpg')">
+                <img src="https://i.postimg.cc/4x0gdMLm/bihancsurfphoto013.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 14 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/GmwnWNpv/bihancsurfphoto034.jpg')">
+                <img src="https://i.postimg.cc/GmwnWNpv/bihancsurfphoto034.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 15 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/KjCP4mM7/bihancsurfphoto015.jpg')">
+                <img src="https://i.postimg.cc/KjCP4mM7/bihancsurfphoto015.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+           <!-- Photo Item 16 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/HsQzj76X/bihancsurfphoto016.jpg')">
+                <img src="https://i.postimg.cc/HsQzj76X/bihancsurfphoto016.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 17 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/Vv9Z3YL3/23587.jpg')">
+                <img src="https://i.postimg.cc/Vv9Z3YL3/23587.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 18 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/QCSMnmX5/bihancsurfphoto018.jpg')">
+                <img src="https://i.postimg.cc/QCSMnmX5/bihancsurfphoto018.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 19 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/J42rDG0P/bihancsurfphoto019.jpg')">
+                <img src="https://i.postimg.cc/J42rDG0P/bihancsurfphoto019.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 20 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/L6cdFfnh/bihancsurfphoto020.jpg')">
+                <img src="https://i.postimg.cc/L6cdFfnh/bihancsurfphoto020.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 21 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/NjtcrmYz/bihancsurfphoto021.jpg')">
+                <img src="https://i.postimg.cc/NjtcrmYz/bihancsurfphoto021.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 22 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/gjGVZgSY/bihancsurfphoto022.jpg')">
+                <img src="https://i.postimg.cc/gjGVZgSY/bihancsurfphoto022.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+             <!-- Photo Item 23 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/k5FBLKvr/BCR-0034.jpg')">
+                <img src="https://i.postimg.cc/k5FBLKvr/BCR-0034.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 24 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/PJZqdHzt/bihancsurfphoto024.jpg')">
+                <img src="https://i.postimg.cc/PJZqdHzt/bihancsurfphoto024.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 25 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/NjNQqLqP/bihancsurfphoto025.jpg')">
+                <img src="https://i.postimg.cc/NjNQqLqP/bihancsurfphoto025.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 26 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/9MdS2Nw4/bihancsurfphoto026.jpg')">
+                <img src="https://i.postimg.cc/9MdS2Nw4/bihancsurfphoto026.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+           <!-- Photo Item 27 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/T35tGHBs/bihancsurfphoto027.jpg')">
+                <img src="https://i.postimg.cc/T35tGHBs/bihancsurfphoto027.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 28 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/25FFSpGT/bihancsurfphoto028.jpg')">
+                <img src="https://i.postimg.cc/25FFSpGT/bihancsurfphoto028.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 29 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/J0ykJS3m/bihancsurfphoto029.jpg')">
+                <img src="https://i.postimg.cc/J0ykJS3m/bihancsurfphoto029.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 30 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/4xkbpv8Y/bihancsurfphoto035.jpg')">
+                <img src="https://i.postimg.cc/4xkbpv8Y/bihancsurfphoto035.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+           <!-- Photo Item 31 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/j5yFQksY/BCR-6370.jpg')">
+                <img src="https://i.postimg.cc/j5yFQksY/BCR-6370.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 32 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/Dywx8z4M/DJI-0008.jpg')">
+                <img src="https://i.postimg.cc/Dywx8z4M/DJI-0008.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 33 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/xdYDCFB6/03145.jpg')">
+                <img src="https://i.postimg.cc/xdYDCFB6/03145.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 34 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/8cYt6jcQ/BCR-9024.jpg')">
+                <img src="https://i.postimg.cc/8cYt6jcQ/BCR-9024.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+            <!-- Photo Item 35 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/50gxbM0s/1245.jpg')">
+                <img src="https://i.postimg.cc/50gxbM0s/1245.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+           <!-- Photo Item 36 -->
+            <div class="group relative overflow-hidden rounded-lg bg-zinc-900 aspect-[4/5] cursor-pointer shadow-md" onclick="openLightbox('https://i.postimg.cc/NjjRcgjW/GOPR4223.jpg')">
+                <img src="https://i.postimg.cc/NjjRcgjW/GOPR4223.jpg" alt="Surf Photo" class="w-full h-full object-cover group-hover:scale-105 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                    <span class="bg-black/70 text-cyan-400 px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm"><i class="fas fa-expand mr-1"></i> View Full Screen</span>
+                </div>
+            </div>
+
+
+
+
+
+
+       </div>
+    </main>
+
+    <!-- Full Screen Lightbox Modal (Download Button එක ඉවත් කර ඇත) -->
+    <div id="lightbox" class="fixed inset-0 bg-black/95 z-50 hidden flex-col items-center justify-center p-4">
+        <!-- Close Button -->
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white text-xl bg-zinc-800/80 hover:bg-zinc-700 w-10 h-10 rounded-full flex items-center justify-center transition z-10">
+            <i class="fas fa-times"></i>
+        </button>
+        
+        <!-- Full Screen Image (Protected from direct dragging/saving) -->
+        <img id="lightbox-img" src="" alt="Full Screen Surf Photo" class="max-h-[85vh] max-w-full rounded-lg shadow-2xl object-contain pointer-events-none">
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-6 border-t border-zinc-900 text-center text-zinc-500 text-xs">
+        <p>&copy; 2026 BihanC Life Style Photo. All rights reserved.</p>
+    </footer>
+
+    <!-- Lightbox & Protection JavaScript -->
+    <script>
+        function openLightbox(imgSrc) {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            
+            lightboxImg.src = imgSrc;
+            lightbox.classList.remove('hidden');
+            lightbox.classList.add('flex');
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            lightbox.classList.remove('flex');
+            lightbox.classList.add('hidden');
+        }
+
+        // Close lightbox when clicking outside the image
+        document.getElementById('lightbox').addEventListener('click', function(e) {
+            if (e.target.id === 'lightbox') {
+                closeLightbox();
+            }
+        });
+
+        // Disable right click on images to prevent "Save Image As"
+        document.addEventListener('contextmenu', function(e) {
+            if (e.target.tagName === 'IMG') {
+                e.preventDefault();
+            }
+        });
+    </script>
+
+</body>
+</html>
